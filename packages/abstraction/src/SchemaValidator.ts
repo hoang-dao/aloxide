@@ -1,7 +1,7 @@
-import fs from 'fs'
-import Schema from 'validate'
-import SchemaBuilder from "./lib/SchemaBuilder"
-import { loadContent, printErrors } from './lib/Utils'
+import fs from 'fs';
+import Schema from 'validate';
+import SchemaBuilder from "./lib/SchemaBuilder";
+import { loadContent, printErrors } from './lib/Utils';
 import { Logger } from '@aloxide/Logger';
 
 const logLevels = {
